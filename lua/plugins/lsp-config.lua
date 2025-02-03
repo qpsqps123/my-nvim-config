@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "ts_ls", "emmet_ls", "tailwindcss" }, -- tsserver를 설치하도록 지정
+        ensure_installed = { "lua_ls", "ts_ls", "html", "cssls", "emmet_ls", "tailwindcss" }, -- tsserver를 설치하도록 지정
       })
     end,
   },
@@ -19,6 +19,8 @@ return {
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
       lspconfig.ts_ls.setup({})
+      lspconfig.cssls.setup({})
+      lspconfig.html.setup({})
       lspconfig.emmet_ls.setup({})
       lspconfig.tailwindcss.setup({})
 
