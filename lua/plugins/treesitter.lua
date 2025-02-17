@@ -2,8 +2,8 @@ return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
   opts = {
-    highlight = { enable = true },
-    indenet = { enable = true },
+    incremental_selection = { enable = true },
+    textobjects = { enable = true },
     auto_install = true,
   },
 }
