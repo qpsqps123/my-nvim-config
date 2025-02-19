@@ -12,8 +12,6 @@ keymap.set("n", "-", "<c-x>")
 -- Select all --
 keymap.set("n", "<c-a>", "gg<s-v>G")
 
--- Jumplist --
-keymap.set("n", "c-m", "c-i", opts)
 -- New tab --
 keymap.set("n", "te", ":tabedit<space>", opts)
 keymap.set("n", "<tab>", ":tabnext<return>", opts)
