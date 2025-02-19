@@ -11,7 +11,8 @@ keymap.set("n", "-", "<c-x>")
 
 -- Select all --
 keymap.set("n", "<c-a>", "gg<s-v>G")
-
+-- Move --
+keymap.set("n", "<c-m>", "<c-b>")
 -- New tab --
 keymap.set("n", "te", ":tabedit<space>", opts)
 keymap.set("n", "<tab>", ":tabnext<return>", opts)
