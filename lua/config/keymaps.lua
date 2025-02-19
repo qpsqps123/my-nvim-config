@@ -48,4 +48,4 @@ end, opts)
 -- keymap.set("n", "<leader>p", fzf_lua.files, {})
 
 -- Neo-tree --
-keymap.set("n", "<leader>e", ":Neotree filesystem reveal left<return>")
+keymap.set("n", "<leader>e", ":Neotree filesystem reveal toggle left<return>")
